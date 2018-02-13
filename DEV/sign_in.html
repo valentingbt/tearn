@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign In - TEARN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway:bold,medium' rel='stylesheet'>
+    <script src="main.js"></script>
+</head>
+<body>
+    <img src="img/logo_up.jpg" alt="Logo du site TEARN" class="logo_sign">
+	<section class="loginform cf">
+        <h1 class="title_sign">Sign In</h1>
+		<form name="login" action="index_submit" method="get" accept-charset="utf-8">
+			<ul>
+				<li>
+					<label for="usermail">YOUR USERNAME / E-MAIL</label>
+					<input type="email" id="usermail" name="usermail" required>
+                </li>
+    			<li>
+					<label for="password">YOUR PASSWORD</label>
+					<input type="password" id="password" name="password" required></li>
+				<li>
+					<div class="network">
+					<input class="facebook" type="submit" value="FACEBOOK">
+					<input class="google" type="submit" value="GOOGLE">
+					</div>
+					<input class="normallog" type="submit" value="LOG IN">
+				</li>
+				<li class="checkbox">
+					<input type="checkbox" value="None" id="checkbox" name="check" />
+					<label for="checkbox"></label>
+					<span>REMEMBER ME</span>
+				</li>		
+			</ul>
+		</form>
+	</section>
+</body>
+</html>
